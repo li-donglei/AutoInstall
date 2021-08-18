@@ -1,11 +1,11 @@
-######## Auto Install Script v1.0 ##########
-########  linux 软件自动安装脚本  ##########
-########    Ubuntu Centos
-########    Ububtu apt-get install xxx
-########    Centos yum install
+##=========== Auto Install Script v1.0 =========
+##===========  linux 软件自动安装脚本  ===========
+##===========   Ubuntu Centos
+##===========    Ububtu apt-get install xxx
+##===========    Centos yum install
 
-### Programming Language
-###    Java jdk8
+##=== Programming Language
+###  Java jdk8
 ###    Go
 ###    c++ g++
 ###    python38
