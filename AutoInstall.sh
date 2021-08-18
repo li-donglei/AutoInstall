@@ -1,6 +1,18 @@
+######## Auto Install Script v1.0 ##########
+########  linux 软件自动安装脚本  ##########
+########    Ubuntu Centos
+########    Ububtu apt-get install xxx
+########    Centos yum install
 
-
-
+### Programming Language
+###    Java jdk8
+###    Go
+###    c++ g++
+###    python38
+###    PHP
+###    git
+###    MySQL   
+###    docker
 
 print_info()
 {
@@ -20,6 +32,26 @@ u_python38()
 {
 	echo "install python3.8 ... "
 	sudo apt-get install python3.8
+}
+
+u_mysql()
+{
+	## sudo systemctl status mysql
+	## sudo cat /etc/mysql/debian.cnf
+	## mysql -u debian-sys-maint -p
+	echo "ubuntu install mysql...."
+	sudo apt install mysql-server
+	echo "finished........."
+}
+c_mysql()
+{
+	echo "centos install mysql"
+}
+
+u_init()
+{
+	echo "updating apt"
+	sudo apt update
 }
 u_main()
 {
