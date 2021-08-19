@@ -2,15 +2,32 @@
 
 > Linux 自动安装软件shell脚本
 
+## Ubuntu
 ### 语言
-- [ ] Ubuntu JDK8
-- [x] Centos JDK8
+- [x] JDK8
+- [x] gcc make g++
+- [x] python38
 
 ### 环境
 
 
 ### 系统软件
+- [x] MySQL
+- [ ] Docker
+- [ ] git
+
+## Centos
+### 语言
+- [ ] JDK8
+- [ ] gcc make g++
+- [ ] python38
+
+### 环境
 
 
+### 系统软件
+- [ ] MySQL
+- [ ] Docker
+- [ ] git
 
 

@@ -7,7 +7,7 @@
 ##=== Programming Language
 ###  Java jdk8
 ###    Go
-###    c++ g++
+###    c++ gcc make g++
 ###    python38
 ###    PHP
 ###    git
@@ -22,6 +22,36 @@ print_info()
 	echo "#################################################"
 }
 
+
+## ============ Ubuntu ========  init -> function
+
+u_init()
+{
+	echo "updating apt"
+	sudo apt update
+}
+
+## gcc
+u_gcc()
+{
+	echo "install gcc"
+	sudo apt-get install gcc
+}
+## g ++
+u_gplusplus()
+{
+	echo "install g++"
+	sudo apt-get install g++
+}
+
+## make
+u_make()
+{
+	echo "install make"
+	sudo apt-get install make
+}
+
+## jdk8
 u_jdk8()
 {
 	echo "install jdk1.8"
@@ -34,6 +64,7 @@ u_python38()
 	sudo apt-get install python3.8
 }
 
+##  MySQL Install 
 u_mysql()
 {
 	## sudo systemctl status mysql
@@ -43,16 +74,16 @@ u_mysql()
 	sudo apt install mysql-server
 	echo "finished........."
 }
+
+
+## ========  Centos ======
 c_mysql()
 {
 	echo "centos install mysql"
 }
 
-u_init()
-{
-	echo "updating apt"
-	sudo apt update
-}
+
+## ========== main ========
 u_main()
 {
 	echo "your system is Ubuntu"
@@ -63,7 +94,19 @@ u_main()
 		u_jdk8
 	elif [ $name = "python3.8" ]
 	then
-		u_python38	
+		u_python38
+	elif [ $name = "gcc" ]
+	then 
+		u_gcc
+	elif [ $name = "make" ]
+	then 
+		u_make
+	elif [ $name = "g++" ]
+	then 
+		u_gcc
+		u_make
+		u_gplusplus
+
 	fi
 }
 
@@ -78,6 +121,7 @@ sys_type=$(cat /etc/issue)
 sys_type=${sys_type:0:6}
 if [ $sys_type = "Ubuntu" ]
 then
+	u_init
 	u_main
 else
 	echo "Centos"
