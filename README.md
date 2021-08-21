@@ -1,7 +1,7 @@
 # AutoInstall
 
 > Linux 自动安装软件shell脚本
-
+> 下载：`curl https://github.com/li-donglei/AutoInstall/blob/main/AutoInstall.sh`
 ## Ubuntu
 ### 语言
 - [x] JDK8
