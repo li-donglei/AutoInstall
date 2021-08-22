@@ -14,7 +14,7 @@
 ### 系统软件
 - [x] MySQL
 - [x] Docker
-- [ ] git
+- [x] git
 
 ## Centos
 ### 语言
