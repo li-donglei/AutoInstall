@@ -13,7 +13,7 @@
 
 ### 系统软件
 - [x] MySQL
-- [ ] Docker
+- [x] Docker
 - [ ] git
 
 ## Centos
