@@ -20,7 +20,7 @@ print_info()
 	# \033[31m 红色字 \033[0m 红色字
 	echo "#################################################"
 	echo "请选择一下软件: "
-	echo -e "\033[31m jdk1.8 tomcat docker \n go python3.8 gcc g++ \n git \033[0m"
+	echo -e "\033[31m jdk8 tomcat docker \n go python3.8 gcc g++ \n git \033[0m"
 	echo "#################################################"
 }
 
@@ -122,7 +122,7 @@ u_main()
 	print_info
 	echo -e -n "\033[41;37m 请输入要安装的软件名称:  \033[0m"
 	read -p "  " name
-	if [ $name = "jdk1.8" ]
+	if [ $name = "jdk8" ]
 	then
 		u_jdk8
 	elif [ $name = "python3.8" ]

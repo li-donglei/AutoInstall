@@ -1,6 +1,6 @@
 # AutoInstall
 
-> Linux 自动安装软件shell脚本
+> Linux 自动软件自动化安装shell脚本
 > 使用方式: 
 
 > 1、下载: `curl https://gitee.com/li-donglei/AutoInstall/raw/main/AutoInstall.sh >> AutoInstall.sh`
@@ -13,9 +13,13 @@
 - [x] JDK8
 - [x] gcc make g++
 - [x] python38
+- [ ] php
+- [ ] go
+- [ ] nodejs
 
 ### 环境
-
+- [ ] tomcat
+- [ ] apache
 
 ### 系统软件
 - [x] MySQL
@@ -27,6 +31,9 @@
 - [ ] JDK8
 - [ ] gcc make g++
 - [ ] python38
+- [ ] php
+- [ ] go
+- [ ] nodejs
 
 ### 环境
 
