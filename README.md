@@ -3,7 +3,9 @@
 > Linux 自动安装软件shell脚本
 > 使用方式: 
 > 1、下载: `curl https://gitee.com/li-donglei/AutoInstall/raw/main/AutoInstall.sh >> AutoInstall.sh`
+
 > 2、权限: `chmod 777 AutoInstall.sh`
+
 > 3、执行: `./AutoInstall.sh`
 ## Ubuntu
 ### 语言
