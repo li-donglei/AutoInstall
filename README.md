@@ -20,6 +20,7 @@
 ### 环境
 - [ ] tomcat
 - [ ] apache
+- [ ] nginx
 
 ### 系统软件
 - [x] MySQL
@@ -36,7 +37,9 @@
 - [ ] nodejs
 
 ### 环境
-
+- [ ] tomcat
+- [ ] apache
+- [ ] nginx
 
 ### 系统软件
 - [ ] MySQL

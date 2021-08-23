@@ -1,6 +1,6 @@
-##=========== Auto Install Script v1.0 =========
+##===========  Auto Install Script v1.0 =========
 ##===========  linux 软件自动安装脚本  ===========
-##===========   Ubuntu Centos
+##===========    Ubuntu Centos
 ##===========    Ububtu apt-get install xxx
 ##===========    Centos yum install
 
@@ -9,7 +9,7 @@
 ###    Go
 ###    c++ gcc make g++
 ###    python38
-###    PHP
+###    PHP nodejs 
 ###    git
 ###    MySQL   
 ###    docker
