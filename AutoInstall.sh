@@ -41,6 +41,7 @@ u_gcc()
 	echo "安装 gcc"
 	sudo apt-get install gcc
 }
+
 ## g ++
 u_gplusplus()
 {
@@ -107,13 +108,11 @@ u_git()
 	echo "git config --global user.email 'youremail'"
 }
 
-
 ## ========  Centos ======
 c_mysql()
 {
 	echo "centos install mysql"
 }
-
 
 ## ========== main ========
 u_main()
@@ -155,6 +154,7 @@ c_main()
 	echo "your system is Centos"
 	print_info
 }
+
 ## main program
 ## sys_type : Ubuntu Centos
 sys_type=$(cat /etc/issue)
@@ -166,4 +166,3 @@ then
 else
 	echo "Centos"
 fi
-
